@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#363636"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/disp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#292929"
+        android:shadowColor="#545454"
+        android:textColor="#545454"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/clearButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_below="@id/disp"
+        android:text="@string/cButton"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/divButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_below="@id/disp"
+        android:layout_toRightOf = "@id/clearButton"
+        android:layout_toEndOf = "@id/clearButton"
+        android:text="@string/diviButton"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/multButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/divButton"
+        android:layout_toEndOf = "@id/divButton"
+        android:layout_below="@id/disp"
+        android:text="@string/mutiButton"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/minusButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/multButton"
+        android:layout_toEndOf = "@id/multButton"
+        android:layout_below="@id/disp"
+        android:text="@string/minusButton"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/sevenButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_below="@id/clearButton"
+        android:text="@string/seven"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/eightButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_below="@id/divButton"
+        android:layout_toRightOf = "@id/clearButton"
+        android:layout_toEndOf = "@id/clearButton"
+        android:text="@string/wight"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/nineButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/eightButton"
+        android:layout_toEndOf = "@id/eightButton"
+        android:layout_below="@id/divButton"
+        android:text="@string/nueve"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/plusButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/multButton"
+        android:layout_toEndOf = "@id/multButton"
+        android:layout_below="@id/minusButton"
+        android:text="@string/plus"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/fourbutton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_below="@id/sevenButton"
+        android:text="@string/cuatro"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/fiveButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/fourbutton"
+        android:layout_toEndOf = "@id/fourbutton"
+        android:layout_below="@id/eightButton"
+        android:text="@string/cinco"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/sixButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/fiveButton"
+        android:layout_toEndOf = "@id/fiveButton"
+        android:layout_below="@id/nineButton"
+        android:text="@string/seis"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/onebutton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_below="@id/fourbutton"
+        android:text="@string/uno"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/twoButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/onebutton"
+        android:layout_toEndOf = "@id/onebutton"
+        android:layout_below="@id/fiveButton"
+        android:text="@string/dos"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/threeButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/twoButton"
+        android:layout_toEndOf = "@id/twoButton"
+        android:layout_below="@id/sixButton"
+        android:text="@string/tres"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/equalButton"
+        android:layout_height = "fill_parent"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/threeButton"
+        android:layout_toEndOf = "@id/sixButton"
+        android:layout_below="@id/plusButton"
+        android:text="@string/eqcual"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/ceroButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/onebutton"
+        android:layout_toEndOf = "@id/onebutton"
+        android:layout_below="@id/twoButton"
+        android:text="@string/cero"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        style="@style/buttons"
+        android:id="@+id/pointButton"
+        android:layout_height = "110dp"
+        android:layout_width = "wrap_content"
+        android:layout_toRightOf = "@id/ceroButton"
+        android:layout_toEndOf = "@id/ceroButton"
+        android:layout_below="@id/threeButton"
+        android:text="@string/punto"
+        tools:ignore="MissingConstraints"
+        />
+
+</RelativeLayout>
