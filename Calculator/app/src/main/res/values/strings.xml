@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="cButton">C</string>
+    <string name="diviButton">/</string>
+    <string name="mutiButton">x</string>
+    <string name="minusButton">-</string>
+    <string name="plus">+</string>
+    <string name="eqcual">=</string>
+    <string name="seven">7</string>
+    <string name="wight">8</string>
+    <string name="nueve">9</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cero">0</string>
+    <string name="punto">.</string>
+</resources>
